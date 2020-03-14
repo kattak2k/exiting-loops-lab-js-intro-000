@@ -12,7 +12,7 @@ return array
 function keepGoing(array, changeValue, skipValue) {
   for (let i=0; i< array.length; i++){
     debugger;
-    if (array[i] == stopValue){
+    if (array[i] == skipValue){
       continue;
     } else {
          array[i] =  changeValue;
