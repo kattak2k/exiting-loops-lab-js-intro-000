@@ -1,10 +1,12 @@
 function breakOut(array, changeValue, stopValue) {
- array.forEach((ele)=>{
-   ele =  changeValue;
-   if (ele == stopValue){
+ for (let i=0; i< array.length; i++){
+   array[i] =  changeValue;
+   if (array[i] == stopValue){
      break
    };
- })
+ }
+
+
 return array
 }
 
